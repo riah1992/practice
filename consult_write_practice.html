@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">  <!-- 언어설정  일본어 : ja, 중국어 : zh -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- 문서환경설정 : 검색어설정 등 -->
+<title>beach</title>
+
+<style type="text/css">
+     body,p,ul,li{
+    margin:0px; padding:0px; list-style:none;
+    }
+  
+    table{
+        border-spacing:0px; border-collapse:collapse;
+    }
+    textarea{
+    resize:none;
+    }
+
+    div#wrap{
+        width:1200px; margin:0px auto;
+    }
+    div#header{
+        width:1200px;  float:left;
+        margin-bottom:10px;
+    }
+    a#logo img{
+        width:100px; height:100px; display:block;
+    }
+    div#visual{
+        width:1200px;  float:left;
+        margin-bottom:40px;
+    }
+    div#visual img{
+        width:1200px; height:300px; display:block;
+    }
+
+    div#title_text{
+        width:1200px; float:left; margin-bottom:50px;
+    }
+
+    p#title{
+        font:bold 24px verdana; color:#1b1b1b;
+    }
+    span#title_subtext{
+        font:normal 14px verdana; color:rgb(27, 27, 27);
+    }
+
+    form#user_apply{
+        width:1200px; margin:0px auto;
+    }
+
+
+    table#contents{
+        width:1200px; border-top:solid 2px rgb(116, 117, 119);
+        margin:0px auto; margin-bottom:50px; 
+        border-bottom:solid 2px rgb(119, 116, 116);
+    }
+    table#contents th{
+        border-right:dotted 1px rgb(116, 117, 119);
+        border-bottom:dotted 1px rgb(116, 117, 119);
+        width:150px; height:70px; text-indent:20px;  text-align:left;
+        letter-spacing:1px; font:bold 14px/20px verdana;
+        background:rgb(246, 199, 199);
+    }
+    table#contents td{
+        width:1050px; height:70px; border-bottom:dotted 1px rgb(116, 117, 119);
+        text-indent:30px; font:normal 14px/20px verdana;
+    }
+  
+    .txt_box{
+        height:28px; background:rgb(246, 199, 199);
+        border:solid 1px rgb(116, 117, 119);
+        text-indent:10px;
+    }
+    .select_box{
+        width:200px; height:32px; 
+    }
+    #write_box{
+        width:865px; height:200px; background:rgb(246, 199, 199);
+    }
+    table#contents th.content_text{
+        height:250px;
+    }
+    p#confirm_button{
+        text-align:center; width:1200px; margin:0px auto;
+        margin-bottom:100px;
+    }
+    p#confirm_button button{
+        background:rgb(246, 199, 199);
+        width:80px; height:30px; font:normal 14px verdana;
+    }
+    p#confirm_button button:hover{
+      background:rgb(103, 174, 214); font:bold 14px verdana;
+    }
+    div#footer{
+        font:normal 14px verdana; text-align:center;
+        width:1200px; margin-bottom:50px; 
+    }
+
+</style>
+
+  
+
+
+
+</head>
+
+
+<body>
+  
+    <div id="wrap">
+
+        <div id="header">
+            <a id="logo" href="#">
+                <img src="images/myimg05.jpg" alt="smile">
+            </a>
+        </div>
+        <div id="visual">
+            <img src="images/myimg06.jpg" alt="beach">
+        </div>
+
+        <div id="title_text">
+           <p id="title">
+           APPLY BOARD
+                <span id="title_subtext">
+                |You can experience specific beach.
+                </span>
+            </p>
+        </div>
+
+        <form name="user_apply" id="user_apply" method="post" action="">  
+
+            <table id="contents" summary="user apply board">
+
+                <tr>
+                    <th>
+                        name
+                    </th>
+                    <td>
+                        <input class="txt_box" type="text" size="30">
+                    </td>
+                </tr> 
+                
+                <tr>
+                    <th>
+                        e-mail
+                    </th>
+                    <td>
+                        <input class="txt_box" type="text" size="30" maxlength="20">@<input class="txt_box" type="text" size="30" maxlength="20">
+                        <select name="user_email" class="select_box">
+                            <option>naver.com</option>
+                            <option>gmail.com</option>
+                            <option>yahoo.com</option>
+                        </select>
+                    
+                    </td>
+                </tr> 
+                <tr>
+                    <th>
+                        number
+                    </th>
+                    <td>
+                        <select  name="user_phone" class="select_box">
+                            <option>cellphone</option>
+                            <option>010</option>
+                            <option>080</option>
+                            <option>090</option>
+                        </select>
+                        <input class="txt_box" type="text" size="30" maxlength="20"> - <input class="txt_box" type="text" size="30" maxlength="20">
+                    </td>
+                </tr> 
+                <tr>
+                    <th>
+                        select
+                    </th>
+                    <td>
+                         <input type="radio" name="ap">
+                         tube lending
+                         <input type="radio" name="ap">
+                         buying consult
+                         <input type="radio" name="ap">
+                         time consult
+                         <input type="radio" name="ap">
+                         etc consult     
+                    </td>
+                </tr> 
+                <tr>
+                    <th>
+                        title
+                    </th>
+                    <td>
+                         <input class="txt_box" type="text" name="write_title"
+                         size="120" maxlegth="100">
+                    </td>
+                </tr> 
+
+                <tr>
+                    <th class="content_text">
+                        contents
+                    </th>
+                    <td>
+                        <textarea name="write_contents" class="txt_box" id="write_box"
+                        cols="60" rows="10">
+                        </textarea>
+                    </td>
+                </tr> 
+
+                <tr>
+                    <th>
+                        file
+                    </th>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr> 
+
+             </table>
+
+             <p id="confirm_button">
+                <button>confirm</button>
+                <button>cancel</button>
+            </p>
+           
+        </form>
+
+        <div id="footer">
+            COPYRIGHT RIAH 2021
+        </div>
+
+    </div>
+    
+</body>
+</html>
